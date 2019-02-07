@@ -1,4 +1,5 @@
 def whatday(num):
+        '''Return day of the week depending on number given'''
     days = {
         1: 'Sunday',
         2: 'Monday',
