@@ -2,4 +2,4 @@
 ##Strips the first and last character from a string and returns it
 
 def remove_char(s):
-   return s[1:-1];
+   return s[1:-1]
