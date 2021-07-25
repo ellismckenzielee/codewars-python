@@ -1,4 +1,4 @@
-#Retrieve array value by index with default
+#Retrieve array value by index with default kata
 #https://www.codewars.com/kata/515ceaebcc1dde8870000001
 
 def solution(items, index, default_value):
