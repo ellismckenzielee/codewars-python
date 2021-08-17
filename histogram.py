@@ -1,3 +1,6 @@
+#errors: histogram kata
+#https://www.codewars.com/kata/59f44c7bd4b36946fd000052
+
 import numpy as np
 def hist(s):
     '''Builds upon printing error kata. Returns a histogram of the errors in:
@@ -6,7 +9,7 @@ def hist(s):
         -Error count in starts
         format.'''
 
-    print_list = list(s)
+
     unique, counts = np.unique(print_list, return_counts=True)
     dictionary_counts = dict(zip(unique, counts))
     output_string = ''
